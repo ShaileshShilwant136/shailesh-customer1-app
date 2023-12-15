@@ -4,7 +4,7 @@ services: # apps containers you want to build and run
     image: shaileshdotnetimg:v1  # image i want to build 
     build: .  # path of dockerfile location -- . means current 
     container_name: shaileshc1 # it will create container also 
- shaileshapp2: 
+  shaileshapp2: 
     image: shaileshhttpd:v1 
     build: 
       context: . #location of dockerfile 
